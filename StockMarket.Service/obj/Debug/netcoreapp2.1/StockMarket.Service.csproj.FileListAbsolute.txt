@@ -1,0 +1,3 @@
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.csproj.CoreCompileInputs.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.AssemblyInfoInputs.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.AssemblyInfo.cs
