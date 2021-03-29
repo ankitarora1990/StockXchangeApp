@@ -12872,9 +12872,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\StockManagementService\\StockManagementService.csproj",
-      "projectName": "StockManagementService",
-      "projectPath": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\StockManagementService\\StockManagementService.csproj",
+      "projectUniqueName": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\StockManagementService\\StockManagement.Service.csproj",
+      "projectName": "StockManagement.Service",
+      "projectPath": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\StockManagementService\\StockManagement.Service.csproj",
       "packagesPath": "C:\\Users\\anarora\\.nuget\\packages\\",
       "outputPath": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\StockManagementService\\obj\\",
       "projectStyle": "PackageReference",
