@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Notifcation.Service.Controllers
 {
+    // Can be an Azure function sending email when message is received on SB Queue.
+    // Here created an API Server with client lib to SB Queue and logging in console.
+
     [Route("api/[controller]")]
     [ApiController]
     public class NotificationController : ControllerBase

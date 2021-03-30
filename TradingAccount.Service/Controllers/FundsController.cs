@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using TradingAccount.Service.Model;
 
 namespace TradingAccount.Service.Controllers
 {
@@ -13,21 +10,27 @@ namespace TradingAccount.Service.Controllers
 
         // POST api/funds/add
         [HttpPost("add")]
-        public void AddFunds([FromBody] string value)
+        public void AddFunds([FromBody] FundRequest fundRequest)
         {
         }
 
         // POST api/funds/withdraw
         [HttpPost("withdraw")]
-        public void WithdrawFunds([FromBody] string value)
+        public void WithdrawFunds([FromBody] FundRequest fundRequest)
         {
         }
 
         // GET api/funds/view-transactons
         [HttpGet("view-transactions")]
-        public ActionResult<IEnumerable<string>> ViewTransactions()
+        public ActionResult<CustomerLedger> ViewTransactions()
         {
-            return new string[] { "Add $100", "Add $30", "Withdraw $60", "Balance $70" };
+            return new CustomerLedger()
+            {
+                CustomerId = 1,
+                AccountBalance = 70,
+                Transactions = null
+            };
+            //return new string[] { "Add $100", "Add $30", "Withdraw $60", "Balance $70" };
         }
     }
 }
