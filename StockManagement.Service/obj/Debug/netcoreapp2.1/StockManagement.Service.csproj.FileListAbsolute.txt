@@ -1,0 +1,15 @@
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\bin\Debug\netcoreapp2.1\StockManagement.Service.deps.json
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\bin\Debug\netcoreapp2.1\StockManagement.Service.runtimeconfig.json
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\bin\Debug\netcoreapp2.1\StockManagement.Service.runtimeconfig.dev.json
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\bin\Debug\netcoreapp2.1\StockManagement.Service.dll
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\bin\Debug\netcoreapp2.1\StockManagement.Service.pdb
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.csprojAssemblyReference.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.csproj.CoreCompileInputs.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.RazorAssemblyInfo.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.RazorAssemblyInfo.cs
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.AssemblyInfoInputs.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.AssemblyInfo.cs
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.RazorTargetAssemblyInfo.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.dll
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.pdb

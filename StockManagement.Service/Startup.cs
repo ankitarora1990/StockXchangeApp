@@ -36,7 +36,7 @@ namespace StockManagementService
                 {
                     Title = "Stock Management API",
                     Version = "v1"
-    });
+                });
             });
         }
 
@@ -59,7 +59,7 @@ namespace StockManagementService
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();            
+            app.UseMvc();
         }
     }
 }

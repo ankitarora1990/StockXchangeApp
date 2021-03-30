@@ -1,3 +1,15 @@
 C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.csproj.CoreCompileInputs.cache
 C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.AssemblyInfoInputs.cache
 C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.AssemblyInfo.cs
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\bin\Debug\netcoreapp2.1\StockMarket.Service.deps.json
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\bin\Debug\netcoreapp2.1\StockMarket.Service.runtimeconfig.json
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\bin\Debug\netcoreapp2.1\StockMarket.Service.runtimeconfig.dev.json
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\bin\Debug\netcoreapp2.1\StockMarket.Service.dll
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\bin\Debug\netcoreapp2.1\StockMarket.Service.pdb
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.RazorAssemblyInfo.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.RazorAssemblyInfo.cs
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.RazorTargetAssemblyInfo.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.dll
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.pdb
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\StockMarket.Service.csprojAssemblyReference.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\StockMarket.Service\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

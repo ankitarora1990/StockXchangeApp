@@ -1,3 +1,14 @@
 C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\obj\Debug\netcoreapp2.1\Notifcation.Service.csproj.CoreCompileInputs.cache
 C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\obj\Debug\netcoreapp2.1\Notifcation.Service.AssemblyInfoInputs.cache
 C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\obj\Debug\netcoreapp2.1\Notifcation.Service.AssemblyInfo.cs
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\bin\Debug\netcoreapp2.1\Notifcation.Service.deps.json
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\bin\Debug\netcoreapp2.1\Notifcation.Service.runtimeconfig.json
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\bin\Debug\netcoreapp2.1\Notifcation.Service.runtimeconfig.dev.json
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\bin\Debug\netcoreapp2.1\Notifcation.Service.dll
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\bin\Debug\netcoreapp2.1\Notifcation.Service.pdb
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\obj\Debug\netcoreapp2.1\Notifcation.Service.RazorAssemblyInfo.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\obj\Debug\netcoreapp2.1\Notifcation.Service.RazorAssemblyInfo.cs
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\obj\Debug\netcoreapp2.1\Notifcation.Service.RazorTargetAssemblyInfo.cache
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\obj\Debug\netcoreapp2.1\Notifcation.Service.dll
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\obj\Debug\netcoreapp2.1\Notifcation.Service.pdb
+C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\Notifcation.Service\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
