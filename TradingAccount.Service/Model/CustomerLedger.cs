@@ -8,13 +8,13 @@ namespace TradingAccount.Service.Model
     public class CustomerLedger
     {
         [DataMember]
-        public int CustomerId { get; set; }
+        public string CustomerEmail { get; set; }
 
         [DataMember]
         public double AccountBalance { get; set; }
 
         [DataMember]
-        public IList<Transaction> Transactions { get; set;}
+        public IList<Transaction> Transactions { get; set; }
 
-}
+    }
 }

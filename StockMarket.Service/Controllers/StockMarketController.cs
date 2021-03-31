@@ -3,43 +3,51 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StockMarket.Service.Model;
 
 namespace StockMarket.Service.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/stock-market")]
     [ApiController]
     public class StockMarketController : ControllerBase
     {
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        // POST api/stock-market/buy
+        [HttpPost("buy")]
+        public void BuyStock([FromBody] TradeRequest tradeRequest)
         {
-            return new string[] { "value1", "value2" };
+            
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        // POST api/stock-market/sell
+        [HttpPost("sell")]
+        public void SellStock([FromBody] TradeRequest tradeRequest)
         {
-            return "value";
+
         }
 
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
+        // GET api/stock-market/{customerEmail}/trade-history
+        [HttpGet("{customerEmail}/trade-history")]
+        public ActionResult<IList<TradeDetail>> Get(string customerEmail)
         {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+            return new List<TradeDetail>
+            {
+                new TradeDetail
+                {
+                    StockCode = "AAPL",
+                    Count = 5,
+                    CommittedPrice = 121.50,
+                    TradeType = TradeType.Buy,
+                    FulfilledTimeStamp = DateTime.Now
+                },
+                new TradeDetail
+                {
+                    StockCode = "AAPL",
+                    Count = 2,
+                    CommittedPrice = 125.50,
+                    TradeType = TradeType.Sell,
+                    FulfilledTimeStamp = DateTime.Now
+                }
+            };
+        }        
     }
 }

@@ -26,7 +26,7 @@ namespace TradingAccount.Service.Controllers
         {
             return new CustomerLedger()
             {
-                CustomerId = 1,
+                CustomerEmail = "testaccount@outlook.com",
                 AccountBalance = 70,
                 Transactions = null
             };

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using TradingAccount.Service.Model;
+using StockManagementService.Service.Model;
 
 namespace StockManagementService.Controllers
 {

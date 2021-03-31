@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using TradingAccount.Service.Model;
+using StockManagementService.Service.Model;
 
 namespace StockManagementService.Controllers
 {
@@ -14,7 +14,7 @@ namespace StockManagementService.Controllers
     {
         // GET api/stocks
         [HttpGet]
-        public ActionResult<IList<Stock>> Get()
+        public ActionResult<IList<Stock>> GetAllStocks()
         {
             return new List<Stock>
             {
@@ -40,7 +40,7 @@ namespace StockManagementService.Controllers
 
         // GET api/stocks/5
         [HttpGet("{stockCode}")]
-        public ActionResult<Stock> Get(string stockCode)
+        public ActionResult<Stock> GetStockDetail(string stockCode)
         {
             return new Stock
             {

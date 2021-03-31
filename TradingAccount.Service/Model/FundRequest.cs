@@ -7,7 +7,7 @@ namespace TradingAccount.Service.Model
     public class FundRequest
     {
         [DataMember]
-        public int CustomerId { get; set; }
+        public int CustomerEmail { get; set; }
         
         [DataMember]
         public Transaction Transaction { get; set; }

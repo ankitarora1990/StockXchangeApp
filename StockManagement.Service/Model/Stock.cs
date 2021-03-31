@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace TradingAccount.Service.Model
+namespace StockManagementService.Service.Model
 {
     [DataContract]
     public class Stock

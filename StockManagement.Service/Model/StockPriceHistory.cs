@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 
-namespace TradingAccount.Service.Model
+namespace StockManagementService.Service.Model
 {
     [DataContract]
     public class StockPriceHistory

@@ -12,4 +12,3 @@ C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\TradingAccount.Service\obj\De
 C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\TradingAccount.Service.dll
 C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\TradingAccount.Service.pdb
 C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
-C:\StockXchangeApp\StockXchangeApp\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\TradingAccount.Service.csprojAssemblyReference.cache
