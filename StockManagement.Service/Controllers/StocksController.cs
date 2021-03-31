@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StockManagementService.Service.Model;
@@ -9,6 +10,7 @@ using StockManagementService.Service.Model;
 namespace StockManagementService.Controllers
 {
     [Route("api/stocks")]
+    [Authorize]
     [ApiController]
     public class StocksController : ControllerBase
     {

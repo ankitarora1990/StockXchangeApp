@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TradingAccount.Service.Model;
 
 namespace TradingAccount.Service.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class FundsController : ControllerBase
     {
