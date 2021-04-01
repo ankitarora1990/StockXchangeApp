@@ -6,6 +6,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 
 namespace MockIdentityServer.Controllers
@@ -14,6 +15,13 @@ namespace MockIdentityServer.Controllers
     [ApiController]
     public class MockIdentityController : ControllerBase
     {
+        private readonly ILogger<MockIdentityController> _logger;
+
+        public MockIdentityController(ILogger<MockIdentityController> logger)
+        {
+            _logger = logger;
+        }
+
         // GET api/mock-token
         [HttpGet("mock-token")]
         public ActionResult<string> GetToken()
@@ -31,6 +39,7 @@ namespace MockIdentityServer.Controllers
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateEncodedJwt(tokenDescriptor);
+            _logger.LogInformation("Token generated sucessfully.");
             return token;
         }
     }
