@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockManagement.Service", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockIdentityServer", "MockIdentityServer\MockIdentityServer.csproj", "{A96FB243-A416-41A5-9EB9-819605717407}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{45794005-18DD-4D6B-8297-CC1AA9B49EFC}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8F019222-5EA7-46D8-B5E6-04D38F78CF5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{A96FB243-A416-41A5-9EB9-819605717407}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A96FB243-A416-41A5-9EB9-819605717407}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A96FB243-A416-41A5-9EB9-819605717407}.Release|Any CPU.Build.0 = Release|Any CPU
-		{45794005-18DD-4D6B-8297-CC1AA9B49EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45794005-18DD-4D6B-8297-CC1AA9B49EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45794005-18DD-4D6B-8297-CC1AA9B49EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45794005-18DD-4D6B-8297-CC1AA9B49EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F019222-5EA7-46D8-B5E6-04D38F78CF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F019222-5EA7-46D8-B5E6-04D38F78CF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F019222-5EA7-46D8-B5E6-04D38F78CF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F019222-5EA7-46D8-B5E6-04D38F78CF5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

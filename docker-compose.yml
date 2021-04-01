@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  mockidentityserver:
+    image: ${DOCKER_REGISTRY-}mockidentityserver
+    build:
+      context: .
+      dockerfile: MockIdentityServer/Dockerfile
+
+  stockmanagement.service:
+    image: ${DOCKER_REGISTRY-}stockmanagementservice
+    build:
+      context: .
+      dockerfile: StockManagement.Service/Dockerfile
+
+
+  stockmarket.service:
+    image: ${DOCKER_REGISTRY-}stockmarketservice
+    build:
+      context: .
+      dockerfile: StockMarket.Service/Dockerfile
+
+
+  tradingaccount.service:
+    image: ${DOCKER_REGISTRY-}tradingaccountservice
+    build:
+      context: .
+      dockerfile: TradingAccount.Service/Dockerfile
+
