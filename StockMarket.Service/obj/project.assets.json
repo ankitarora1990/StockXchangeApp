@@ -12143,11 +12143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\StockMarket.Service\\StockMarket.Service.csproj",
+      "projectUniqueName": "C:\\StockXchangeApp_v2\\StockXchangeApp\\StockMarket.Service\\StockMarket.Service.csproj",
       "projectName": "StockMarket.Service",
-      "projectPath": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\StockMarket.Service\\StockMarket.Service.csproj",
+      "projectPath": "C:\\StockXchangeApp_v2\\StockXchangeApp\\StockMarket.Service\\StockMarket.Service.csproj",
       "packagesPath": "C:\\Users\\anarora\\.nuget\\packages\\",
-      "outputPath": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\StockMarket.Service\\obj\\",
+      "outputPath": "C:\\StockXchangeApp_v2\\StockXchangeApp\\StockMarket.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

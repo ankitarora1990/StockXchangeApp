@@ -12143,11 +12143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\Notifcation.Service\\Notifcation.Service.csproj",
+      "projectUniqueName": "C:\\StockXchangeApp_v2\\StockXchangeApp\\Notifcation.Service\\Notifcation.Service.csproj",
       "projectName": "Notifcation.Service",
-      "projectPath": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\Notifcation.Service\\Notifcation.Service.csproj",
+      "projectPath": "C:\\StockXchangeApp_v2\\StockXchangeApp\\Notifcation.Service\\Notifcation.Service.csproj",
       "packagesPath": "C:\\Users\\anarora\\.nuget\\packages\\",
-      "outputPath": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\Notifcation.Service\\obj\\",
+      "outputPath": "C:\\StockXchangeApp_v2\\StockXchangeApp\\Notifcation.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

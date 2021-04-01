@@ -12881,11 +12881,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\StockManagement.Service\\StockManagement.Service.csproj",
+      "projectUniqueName": "C:\\StockXchangeApp_v2\\StockXchangeApp\\StockManagement.Service\\StockManagement.Service.csproj",
       "projectName": "StockManagement.Service",
-      "projectPath": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\StockManagement.Service\\StockManagement.Service.csproj",
+      "projectPath": "C:\\StockXchangeApp_v2\\StockXchangeApp\\StockManagement.Service\\StockManagement.Service.csproj",
       "packagesPath": "C:\\Users\\anarora\\.nuget\\packages\\",
-      "outputPath": "C:\\StockXchangeApp\\StockXchangeApp\\StockXchangeApp\\StockManagement.Service\\obj\\",
+      "outputPath": "C:\\StockXchangeApp_v2\\StockXchangeApp\\StockManagement.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
