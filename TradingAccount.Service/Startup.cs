@@ -24,7 +24,7 @@ namespace TradingAccount.Service
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            var key = Encoding.ASCII.GetBytes("this-is-my-test-secret");
+            var key = Encoding.ASCII.GetBytes("this-is-my-test-secret"); // Use Public Key
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

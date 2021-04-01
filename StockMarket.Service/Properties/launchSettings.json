@@ -28,7 +28,7 @@
     },
     "Docker_StockMarket": {
       "commandName": "Docker",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/stock-market/myuser@outlook.com/trade-history"
     }
   }
