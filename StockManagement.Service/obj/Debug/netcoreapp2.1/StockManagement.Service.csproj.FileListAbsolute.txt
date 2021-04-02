@@ -22,9 +22,9 @@ C:\StockXchangeApp_v2\StockXchangeApp\StockManagement.Service\obj\Debug\netcorea
 C:\StockXchangeApp_v2\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.csproj.CoreCompileInputs.cache
 C:\StockXchangeApp_v2\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.RazorAssemblyInfo.cache
 C:\StockXchangeApp_v2\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.RazorAssemblyInfo.cs
-C:\StockXchangeApp_v2\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\StockXchangeApp_v2\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.AssemblyInfoInputs.cache
 C:\StockXchangeApp_v2\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.AssemblyInfo.cs
 C:\StockXchangeApp_v2\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.RazorTargetAssemblyInfo.cache
 C:\StockXchangeApp_v2\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.dll
 C:\StockXchangeApp_v2\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\StockManagement.Service.pdb
+C:\StockXchangeApp_v2\StockXchangeApp\StockManagement.Service\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

@@ -4,8 +4,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Steeltoe.Discovery.Client;
 using System.Text;
 
 namespace StockMarket.Service
@@ -23,6 +25,7 @@ namespace StockMarket.Service
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddDiscoveryClient(Configuration);
 
             var key = Encoding.ASCII.GetBytes("this-is-my-test-secret");
             services.AddAuthentication(x =>
@@ -57,25 +60,26 @@ namespace StockMarket.Service
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
-{
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Stock Market API V1");
-    });
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Stock Market API V1");
+            });
 
-    if (env.IsDevelopment())
-    {
-        app.UseDeveloperExceptionPage();
-    }
-    else
-    {
-        app.UseHsts();
-    }
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseHsts();
+            }
 
-    app.UseAuthentication();
-    app.UseHttpsRedirection();
-    app.UseMvc();
-}
+            //app.UseDiscoveryClient();
+            app.UseAuthentication();
+            app.UseHttpsRedirection();
+            app.UseMvc();
+        }
     }
 }

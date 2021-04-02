@@ -21,9 +21,9 @@ C:\StockXchangeApp_v2\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreap
 C:\StockXchangeApp_v2\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\TradingAccount.Service.csproj.CoreCompileInputs.cache
 C:\StockXchangeApp_v2\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\TradingAccount.Service.RazorAssemblyInfo.cache
 C:\StockXchangeApp_v2\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\TradingAccount.Service.RazorAssemblyInfo.cs
-C:\StockXchangeApp_v2\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\StockXchangeApp_v2\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\TradingAccount.Service.AssemblyInfoInputs.cache
 C:\StockXchangeApp_v2\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\TradingAccount.Service.AssemblyInfo.cs
 C:\StockXchangeApp_v2\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\TradingAccount.Service.RazorTargetAssemblyInfo.cache
 C:\StockXchangeApp_v2\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\TradingAccount.Service.dll
 C:\StockXchangeApp_v2\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\TradingAccount.Service.pdb
+C:\StockXchangeApp_v2\StockXchangeApp\TradingAccount.Service\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

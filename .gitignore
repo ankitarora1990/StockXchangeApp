@@ -2,3 +2,5 @@
 **/obj/
 **/packages/
 /.vs
+bin/
+obj/

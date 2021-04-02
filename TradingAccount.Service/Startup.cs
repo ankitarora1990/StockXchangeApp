@@ -4,8 +4,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Steeltoe.Discovery.Client;
 using System.Text;
 
 namespace TradingAccount.Service
@@ -23,6 +25,7 @@ namespace TradingAccount.Service
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddDiscoveryClient(Configuration);
 
             var key = Encoding.ASCII.GetBytes("this-is-my-test-secret"); // Use Public Key
             services.AddAuthentication(x =>
@@ -73,6 +76,7 @@ namespace TradingAccount.Service
                 app.UseHsts();
             }
 
+            //app.UseDiscoveryClient();
             app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseMvc();
